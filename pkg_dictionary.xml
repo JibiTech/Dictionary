@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.0" method="upgrade">
+	
+	<name>Dictionary Package</name>
+	<packagename>dictionary</packagename>
+	<creationDate>Sept 2022</creationDate>
+	<version>3.5.0</version>
+	<url>https://web-eau.net</url>
+	<packager>web-eau.net</packager>
+	<packagerurl>https://web-eau.net</packagerurl>
+	<copyright>Copyright (C) 2005 - 2022. web-eau.net. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>daniel@web-eau.net</authorEmail>
+	<description>Dictionary package installation</description>
+	
+	<files folder="packages">
+		<file type="component" id="com_dictionary">com_dictionary_v3.5.zip</file>
+		<file type="plugin" id="dictionary" group="search">plg_search_dictionary_v1.1.zip</file>
+	</files>
+	
+</extension>
+
+
